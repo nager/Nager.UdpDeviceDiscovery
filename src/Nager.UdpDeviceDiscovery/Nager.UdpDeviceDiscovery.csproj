@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Authors>Tino Hager</Authors>
+    <Company>nager.at</Company>
+    <Description>Discover devices in the network over an udp broadcast</Description>
+
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+    <IncludeSymbols>true</IncludeSymbols>
+
+    <!--<PackageIcon>logo.png</PackageIcon>-->
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/nager/Nager.UdpDeviceDiscovery</PackageProjectUrl>
+    <PackageTags>broadcast udp devicesearch device discovery</PackageTags>
+
+    <RepositoryUrl>https://github.com/nager/Nager.UdpDeviceDiscovery</RepositoryUrl>
+
+    <TargetFrameworks>netstandard2.0;net5.0</TargetFrameworks>
+
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE" Pack="true" PackagePath="LICENSE" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
