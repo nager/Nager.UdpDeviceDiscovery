@@ -1,5 +1,5 @@
 # Nager.UdpDeviceDiscovery
-Discover devices in a network over an udp broadcast
+Discover devices on the network via an udp broadcast
 
 ## nuget
 The package is available on [nuget](https://www.nuget.org/packages/Nager.UdpDeviceDiscovery)
